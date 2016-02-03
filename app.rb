@@ -12,36 +12,35 @@ require File.join(File.dirname(__FILE__),'lib/twitter_card')
 require File.join(File.dirname(__FILE__),'lib/facebook_open_graph')
 
 helpers do
-  
+
   def t(key, ops = Hash.new)
     ops.merge!(:locale => session[:locale])
     I18n.t key, ops
   end
-  
+
 end
 
 configure do
   set :views, "#{File.dirname(__FILE__)}/views"
-  
+
   I18n.load_path += Dir[File.join(File.dirname(__FILE__), 'locales', '*.yml').to_s]
-  
+
   enable :sessions
 end
 
 before do
-  if request.path.length < 3 || request.path[3] != "/" 
-    redirect "http://" + request.host + ( request.port==80 ? "" : ":#{request.port}") + "/es" + request.path, 301
+  if request.path.length < 3 || request.path[3] != "/"
+    redirect "http://" + request.host + ( request.port==80 ? "" : ":#{request.port}") + "/en" + request.path, 301
   end
 end
 
 before '/:locale/*' do
-    
-  locale = params[:locale]
-  
-  if locale == "es" || locale == "en"
-    session[:locale] = locale
+
+
+
+    session[:locale] = "en"
     request.path_info = '/' + params[:splat][0]
-    
+
       @twitter_card = TwitterCard.new
       @twitter_card.card_type = "summary"
       @twitter_card.site = "@luismulato"
@@ -54,20 +53,20 @@ before '/:locale/*' do
       @facebook_og.image = @twitter_card.image_url
 
 #      @active_section = ""
-      flash.sweep 
-  end
+      flash.sweep
+
 end
 
 get '/' do
-    
+
 #  @active_section = "index"
 
-  @twitter_card.title = "Scrum Coaching Retreat Latin America 2016 - Colombia"
+  @twitter_card.title = "Scrum Coaching Retreat Singapore 2016"
   @twitter_card.description = t "about.text"
-  
+
   @facebook_og.title = @twitter_card.title
   @facebook_og.description = @twitter_card.description
-  
+
   erb :index
-  
+
 end

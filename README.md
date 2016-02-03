@@ -1,5 +1,3 @@
-# scrla16
-SCRLA16 
+# SCRSG16
 
-Versión inicial del sitio base para el Scrum Coach Retreat Latam 2016
-Que éste año se realizará en Cartagena Colombia.
+Website for Scrum Coaching Retreat Singapore 2016. This is forked from https://github.com/luismulato/scrla16.

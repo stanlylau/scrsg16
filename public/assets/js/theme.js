@@ -213,7 +213,7 @@ var theme = function () {
         initCountDown: function () {
             var austDay = new Date();
             // event date
-            austDay = new Date("May 5, 2016 16:00:00");
+            austDay = new Date("Jun 2, 2016 16:00:00");
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },
@@ -286,16 +286,16 @@ var theme = function () {
             function initialize() {
 
                 //var myLatlng = new google.maps.LatLng(-34.733703,-58.519942);
-                var myLatlng = new google.maps.LatLng(10.5239708,-75.4952805);
-                
+                var myLatlng = new google.maps.LatLng(1.38945,103.97531);
+
 
                 var infoStr = '<div id="content">'+
                               '<div id="siteNotice">'+
                               '</div>'+
-                              '<h1 id="firstHeading" class="firstHeading">Estelar Grand Manzanillo</h1>'+
+                              '<h1 id="firstHeading" class="firstHeading">Changi Cove Singapore</h1>'+
                               '<div id="bodyContent">'+
-                              '<p>Anillo Vial Vía Manzanillo del mar<br/>Km. 4 No 9 85<br/>Cartagena de Indias, Colombia<br/>PBX (+57) (5) 642 4440</p>'+
-                              '<p><a href=\"http://www.estelargrandplayamanzanillo.com\" target=\"_blank\">http://www.estelargrandplayamanzanillo.com</a></p>'+
+                              '<p>351 Cranwell Road, Singapore 509866<br/>Hotel Contact: +65 6922 6122</p>'+
+                              '<p><a href=\"http://www.changicove.com\" target=\"_blank\">http://www.changicove.com</a></p>'+
                               '</div>'+
                               '</div>';
 
