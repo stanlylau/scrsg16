@@ -43,9 +43,9 @@ before '/:locale/*' do
 
       @twitter_card = TwitterCard.new
       @twitter_card.card_type = "summary"
-      @twitter_card.site = "@luismulato"
-      @twitter_card.creator = "@luismulato"
-      @twitter_card.image_url = "http://scrum.coachingretreat.la/assets/img/retreat/social.jpg"
+      @twitter_card.site = "@stanlylau"
+      @twitter_card.creator = "@stanlylau"
+      @twitter_card.image_url = ""
 
       @facebook_og = FacebookOpenGraph.new
       @facebook_og.site_name = ""
