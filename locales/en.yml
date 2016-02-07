@@ -109,7 +109,7 @@ en:
       price: 500
       applies: "Remaining 16 participants"
     includes:
-      room: "2 nights accomodation in Single Room (2 nights)"
+      room: "2 nights stay in Single Room"
       meals: "Buffet Breakfast, Lunch & Dinner"
   faqs:
     title: "Event FAQs"
