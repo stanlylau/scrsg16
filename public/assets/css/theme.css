@@ -2524,13 +2524,13 @@ div.pp_overlay {
     text-transform: uppercase;
 }
 .price-value {
-    font-size: 90px;
+    font-size: 40px;
     font-weight: 200;
     padding: 20px 15px;
     color: #dc143c;
 }
 .price-number {}
-.price-unit {font-size: 60px;}
+.price-unit {font-size: 26px;}
 .price-per {}
 .price-description {}
 .price-table-row {

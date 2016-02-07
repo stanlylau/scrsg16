@@ -102,14 +102,14 @@ en:
     title: Prices
     early_bird:
       title: Early Bird
-      price: 610
+      price: 450
       applies: "<strong>First 24 participants</strong>"
     normal:
       title: Normal Rate
-      price: 660
+      price: 500
       applies: "Remaining 16 participants"
     includes:
-      room: "Accomodation in Single Room (2 nights)"
+      room: "2 nights accomodation in Single Room (2 nights)"
       meals: "Buffet Breakfast, Lunch & Dinner"
   faqs:
     title: "Event FAQs"
