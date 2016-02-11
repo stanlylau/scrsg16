@@ -12,7 +12,7 @@ en:
     venue: Venue
     location: Location
   button:
-    register: Registration will be available latest by 12 Feb
+    register: Register
   conference:
     date: "2-4 June, 2016"
     venue: Changi Cove
@@ -109,8 +109,9 @@ en:
       price: 500
       applies: "Remaining 16 participants"
     includes:
-      room: "2 nights stay in Single Room"
-      meals: "Buffet Breakfast, Lunch & Dinner"
+      room: "2 nights in Deluxe Room (breakfast incl.)"
+      other: "To exclude stay, use code 'Hotelexcluding'"
+      meals: "Lunch & Dinner"
   faqs:
     title: "Event FAQs"
     subtitle: "find your answers"
