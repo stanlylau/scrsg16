@@ -61,7 +61,7 @@ get '/' do
 
 #  @active_section = "index"
 
-  @twitter_card.title = "Scrum Coaching Retreat Singapore 2016"
+  @twitter_card.title = t "title"
   @twitter_card.description = t "about.text"
 
   @facebook_og.title = @twitter_card.title
@@ -69,4 +69,8 @@ get '/' do
 
   erb :index
 
+end
+
+get '/preview' do
+  erb :preview
 end

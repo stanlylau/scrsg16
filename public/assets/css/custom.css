@@ -1,5 +1,6 @@
 .wide .page-section.background-img-slider > .container {
-    background: transparent url("/assets/img/retreat/outside-circle-dark.jpg") 50% 0 repeat !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("/assets/img/retreat/outside-circle-dark.jpg") 50% 0 repeat !important;
+
     background-position: 50% 0 !important;
     background-size: cover !important;
 }

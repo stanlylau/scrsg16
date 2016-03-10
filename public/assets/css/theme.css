@@ -1115,6 +1115,11 @@ textarea {
     text-transform: uppercase;
     margin: 30px 0 0 0;
 }
+#main-slider .caption-subtitle small {
+  color: #ffffff;
+  text-transform: none;
+}
+
 #main-slider .caption-subtitle .fa {color: #ffffff;}
 #main-slider .caption-subtitle span {
     color: #253239;
