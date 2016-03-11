@@ -9,7 +9,7 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Scrum Coaching Retreat Singapore 2016</title>
+    <title><%=t "title"%></title>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
@@ -98,33 +98,35 @@
         <section class="page-section no-padding background-img-slider">
             <div class="container">
 
-            <div id="main-slider" class="owl-carousel owl-theme">
+              <div id="main-slider" class="owl-carousel owl-theme">
+                  <!-- Slide -->
+                  <div class="item page text-center">
+                      <div class="caption">
+                          <div class="container">
+                              <div class="div-table">
+                                  <div class="div-cell">
+                                      <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span><%=t "conference.date" %></span></h2>
+                                      <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300"><%=t "title"%>
+                                        <br/><small>with an introduction to Satir Model</small>
+                                      </h3>
 
-                <!-- Slide -->
-                <div class="item page text-center">
-                    <div class="caption">
-                        <div class="container">
-                            <div class="div-table">
-                                <div class="div-cell">
-                                    <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span><%=t "conference.date" %></span></h2>
-                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300">Scrum Coaching Retreat Singapore 2016</h3>
-                                    <div class="countdown-wrapper">
-                                        <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
-                                    </div>
+                                      <div class="countdown-wrapper">
+                                          <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
+                                      </div>
 
-                                    <p class="caption-text" style="color:#ffffff;font-size:1.2em;font-weight:bold">
-                                        <a class="btn btn-theme btn-theme-xl" href="http://regonline.com/scrumcoachingretreatSingapore" target="_blank">
-                                          <%=t "button.register" %> <i class="fa fa-arrow-circle-right"></i>
-                                        </a>
-                                    </p>
+                                      <p class="caption-text" style="color:#ffffff;font-size:1.2em;font-weight:bold">
+                                          <a class="btn btn-theme btn-theme-xl" href="http://regonline.com/scrumcoachingretreatSingapore" target="_blank">
+                                            <%=t "button.register" %> <i class="fa fa-arrow-circle-right"></i>
+                                          </a>
+                                      </p>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-            </div>
+              </div>
             </div>
 
             <!-- Event description -->
@@ -178,6 +180,7 @@
         </section>
         <!-- /SLIDER -->
         </div>
+
 
         <!-- PAGE ABOUT -->
         <section class="page-section" id="about">
@@ -288,6 +291,69 @@
         </section>
         <!-- /Donation -->
 
+        <section class="page-section" id="guest">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Special Guest <small>/ Anna Low, therapist, counsellor and trainer</small></span>
+                </h1>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p data-animation="fadeInUp" data-animation-delay="300">
+                          Anna Maria Low is the founding President of the Satir Centre (Singapore). She
+                          supervises and trains social workers and counselors in Singapore and also
+                          conducts workshops and training in China. Anna has also presented at
+                          conferences overseas and locally. She is presently Consultant Counsellor at a
+                          Family Service Centre where she works with individuals, couples and families
+                          and provides clinical supervision and training to the staff team. She also leads
+                          personal growth programmes and retreats at a holistic development centre in
+                          Singapore.<br/><br/>
+
+                          Anna is a Clinical Member of the Satir Institute of the Pacific and was a
+                          recipient of the Satir TST Leadership award in 2011 for her leadership and
+                          contribution to the development of the Satir Model in Singapore. Anna is also a
+                          current Board Member of the International Family Therapy Association (IFTA).<br/><br/>
+
+                          Anna obtained her Degree in Accountancy from the National University of
+                          Singapore and Masters degree in Counselling from the University of South
+                          Australia. She has also received extensive training in the Satir Model as a
+                          therapist, clinical supervisor and trainer. Anna is a Master Clinical Member
+                          with the Singapore Association for Counselling and is also a Registered Social Service Professional.
+                        </p>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
+                    <img class="img-rounded" src="/assets/img/retreat/anna.gif" alt="">
+                    </div>
+                </div>
+
+
+                <h1 class="section-title satir-topic">
+                  <span data-animation="flipInY" data-animation-delay="300" class="icon-inner">
+                    <span class="fa-stack">
+                      <i class="fa rhex fa-stack-2x"></i><i class="fa fa-microphone fa-stack-1x"></i>
+                    </span>
+                  </span>
+                  <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Satir Model <small>/ Amplify your effectiveness</small></span>
+                </h1>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p data-animation="fadeInUp" data-animation-delay="300" class="quote">
+                          "I want you to get excited about who you are, <i>what you are</i>, <i>what you have</i>, and
+                          <i>what can still be for you</i>. I want to inspire you to see that you can go far beyond
+                          where you are right now." ~ Virginia Satir
+                        </p>
+                        <p data-animation="fadeInUp" data-animation-delay="300">
+                          Human growth is always possible. This conviction is the heart of the transformational change system, the Satir Model, developed by visionary family therapist, Virginia Satir (1916-1988). A master at bringing order out of chaos and new possibilities to the old status quo, her system continues to help people improve their lives by transforming the way they see and express themselves.
+                          <br/><br/>
+                          In this session on Day 1, Anna Low will bring you on a journey to some of the tools that the Satir Model offers. We hope this experiential session will prepare the participants to amplify their discovery for the next two days.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <!-- PAGE SCHEDULE -->
         <section class="page-section light" id="schedule">
             <div class="container">
@@ -354,43 +420,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-teams.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-satirforce.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.teams.time"%></span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.satir1.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.teams.title"%></a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.satir1.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p><%=t "agenda.day1.teams.text"%></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
-
-                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-sprint1.jpg" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.sprint1.time"%></span>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.sprint1.title"%></a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p><%=t "agenda.day1.sprint1.text"%></p>
+                                                            <p><%=t "agenda.day1.satir1.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -421,6 +463,31 @@
                                                 <!-- -->
                                             </div>
                                         </article>
+
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
+                                            <div class="media">
+                                                <!-- -->
+                                                <div class="post-media pull-left">
+                                                    <img src="/assets/img/retreat/agenda-satirforce.jpg" alt="" class="media-object" />
+                                                </div>
+                                                <!-- -->
+                                                <div class="media-body">
+                                                    <div class="post-header">
+                                                        <div class="post-meta">
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.satir2.time"%></span>
+                                                        </div>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.satir2.title"%></a></h2>
+                                                    </div>
+                                                    <div class="post-body">
+                                                        <div class="post-excerpt">
+                                                            <p><%=t "agenda.day1.satir2.text"%></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- -->
+                                            </div>
+                                        </article>
+
                                     </div>
                                 </div>
                             </div>
@@ -464,19 +531,43 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-sprint23.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-openspace.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.sprint23.time"%></span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.openspace.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.sprint23.title"%></a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.openspace.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p><%=t "agenda.day2.sprint23.text"%>.</p>
+                                                            <p><%=t "agenda.day2.openspace.text"%>.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- -->
+                                            </div>
+                                        </article>
+
+                                        <article class="post-wrap">
+                                            <div class="media">
+                                                <!-- -->
+                                                <div class="post-media pull-left">
+                                                    <img src="/assets/img/retreat/agenda-teams.jpg" alt="" class="media-object" />
+                                                </div>
+                                                <!-- -->
+                                                <div class="media-body">
+                                                    <div class="post-header">
+                                                        <div class="post-meta">
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.teams.time"%></span>
+                                                        </div>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.teams.title"%></a></h2>
+                                                    </div>
+                                                    <div class="post-body">
+                                                        <div class="post-excerpt">
+                                                            <p><%=t "agenda.day2.teams.text"%>.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -512,19 +603,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-sprint45.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-sprint1.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.sprint45.time"%></span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.sprint12.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.sprint45.title"%></a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.sprint12.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p><%=t "agenda.day2.sprint45.text"%></p>
+                                                            <p><%=t "agenda.day2.sprint12.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -598,43 +689,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-sprint6.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-sprint23.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.sprint6.time"%></span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.sprint3.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.sprint6.title"%></a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.sprint3.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p><%=t "agenda.day3.sprint6.text"%></a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- -->
-                                            </div>
-                                        </article>
-
-                                        <article class="post-wrap">
-                                            <div class="media">
-                                                <!-- -->
-                                                <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-review.jpg" alt="" class="media-object" />
-                                                </div>
-                                                <!-- -->
-                                                <div class="media-body">
-                                                    <div class="post-header">
-                                                        <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.review.time"%></span>
-                                                        </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.review.title"%></a></h2>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-excerpt">
-                                                            <p><%=t "agenda.day3.review.text"%></a></p>
+                                                            <p><%=t "agenda.day3.sprint3.text"%></a></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -670,25 +737,26 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/retreat/agenda-openspace.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-review.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.openspace.time"%></span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.review.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.openspace.title"%></a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.review.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p><%=t "agenda.day3.openspace.text"%></p>
+                                                            <p><%=t "agenda.day3.review.text"%></a></p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <!-- -->
                                             </div>
                                         </article>
+
 
                                         <article class="post-wrap">
                                             <div class="media">

@@ -34,20 +34,20 @@ en:
       date: 02.06.2016
       registration:
         title: Registration
-        time: 4PM - 5PM
+        time: 3PM - 4PM
         text: The kick-off will take part at the "Incubator" room in the Changi Cove Hotel. Just outside the door, we will welcome you. Take advantage of this timeslot for getting to know the other coaches with whom you will be collaborating during these days.
-      teams:
-        title: Team Formation / Topic Selection
-        time: 5PM - 6PM
-        text: "Teams are the heart of Scrum and a key differentiator in retreats. Teams allow for collaborative sharing, learning, and more impactful results. Allowing teams time to form, norm, storm, and perform provides a rich opportunity for learning about teams and learning on the subject of the team. Teams also have challenges -- team alienation, personality conflicts, leadership and role definitions, appropriate expertise, diversity, etc. Working with teams in such a short retreat format is a challenge and an opportunity. A successful retreat will leverage the pre- and post-retreat time to build relationships and lengthen the forming and norming cycle. It will also clearly articulate the team construct to participants throughout the process."
-      sprint1:
-        title: Sprint 1
-        time: 6PM - 8PM
-        text: "This will be the first of Sprints of work and co-creation. We will start off at full speed from day one!"
+      satir1:
+        title: Introduction to Satir Model
+        time: 4PM - 6PM
+        text: "Anna Low brings you through the Satir Model."
       dinner:
         title: "Dinner and Networking Night"
-        time: 8PM - 10PM
+        time: 6PM - 7PM
         text: "We will share the closing of the day at a restaurant conveniently located inside the hotel. Don’t forget that you have both days dinners included in the retreat price. After dinner, you can choose to stay as long as you want in the hotel bar with the rest of the coaches to continue discussion on agility, shared experiences and common challenges. You decide when it's time to go to sleep."
+      satir2:
+        title: Introduction to Satir Model
+        time: 7PM - 9PM
+        text: "Continued after dinner."
     day2:
       title: Day 2
       date: 03.06.2016
@@ -55,18 +55,22 @@ en:
         time: "7AM - 9AM"
         title: Breakfast
         text: "Between 7 and 9 am, you choose the time when you want breakfast. Do not forget that you have breakfast on both days included in the two nights stay at the hotel."
-      sprint23:
-        time: "9AM - 1PM"
-        title: "Sprint 2 y 3"
-        text: "On the morning of the second day will continue to work iteratively on the topics selected during the first day."
+      openspace:
+        time: "9AM - 11AM"
+        title: "Open Space"
+        text: "Open Space Technology is an approach to purpose-driven meetings, conferences, retreats, symposiums, and community summit events, focused on a specific and important purpose or task — but beginning without any formal agenda, beyond the overall purpose or theme."
+      teams:
+        title: Team Formation / Topic Selection
+        time: 11AM - 1PM
+        text: "Teams are the heart of Scrum and a key differentiator in retreats. Teams allow for collaborative sharing, learning, and more impactful results. Allowing teams time to form, norm, storm, and perform provides a rich opportunity for learning about teams and learning on the subject of the team. Teams also have challenges -- team alienation, personality conflicts, leadership and role definitions, appropriate expertise, diversity, etc. Working with teams in such a short retreat format is a challenge and an opportunity. A successful retreat will leverage the pre- and post-retreat time to build relationships and lengthen the forming and norming cycle. It will also clearly articulate the team construct to participants throughout the process."
       lunch:
         time: "1PM - 2PM"
         title: Lunch
         text: "At noon we will have a break for lunch at the hotel. Do not forget that you have lunch on both days included in the price of the retreat."
-      sprint45:
+      sprint12:
         time: "2PM - 6PM"
-        title: "Sprint 4 y 5"
-        text: "On the afternoon of the second day will continue to work iteratively on the topics selected during the first day."
+        title: "Sprint 1 & 2"
+        text: "This will be the first of Sprints of work and co-creation where we work iteratively on the topics selected in the morning."
       dinner:
         time: "6PM - 8PM"
         title: "Dinner and Networking Night"
@@ -78,22 +82,18 @@ en:
         time: "7AM - 9AM"
         title: "Breakfast"
         text: "Between 7 and 9 am, you choose the time when you want breakfast. Do not forget that you have breakfast on both days included in the two nights stay at the hotel."
-      sprint6:
-        time: "9AM - 11AM"
-        title: "Sprint 6"
-        text: "During the morning of the third day we will make the latest iteration of collaborative work on selected topics."
-      review:
-        time: "11AM - 1PM"
-        title: "Review"
-        text: "During Final Review each team of coaches present the result of its iterations to the other coaches participating in the event."
+      sprint3:
+        time: "9AM - 1PM"
+        title: "Sprint 3 & 4"
+        text: "During the morning of the third day we will continue the iteration of collaborative work on selected topics."
       lunch:
         time: "1PM - 2PM"
         title: Lunch
         text: "At noon we will have a break for lunch at the hotel. Do not forget that you have lunch on both days included in the price of the retreat."
-      openspace:
+      review:
         time: "2PM - 4PM"
-        title: "Open Space"
-        text: "Open Space Technology is an approach to purpose-driven meetings, conferences, retreats, symposiums, and community summit events, focused on a specific and important purpose or task — but beginning without any formal agenda, beyond the overall purpose or theme."
+        title: "Review"
+        text: "During Final Review each team of coaches present the result of its iterations to the other coaches participating in the event."
       closing:
         time: "4PM - 5PM"
         title: "Closing"

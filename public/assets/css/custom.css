@@ -12,3 +12,13 @@
 .sf-menu a {
 	font-weight: bold;
 }
+
+.satir-topic {
+  margin-top: 40px;
+}
+
+.quote {
+  font-family: serif;
+  font-size: 1.2em;
+  color: #ed4a43;
+}

@@ -35,10 +35,8 @@ before do
 end
 
 before '/:locale/*' do
-
-
-
     session[:locale] = "en"
+
     request.path_info = '/' + params[:splat][0]
 
       @twitter_card = TwitterCard.new
@@ -69,8 +67,4 @@ get '/' do
 
   erb :index
 
-end
-
-get '/preview' do
-  erb :preview
 end
