@@ -43,7 +43,7 @@ before '/:locale/*' do
       @twitter_card.card_type = "summary"
       @twitter_card.site = "@stanlylau"
       @twitter_card.creator = "@stanlylau"
-      @twitter_card.image_url = "http://scrsg16.herokuapp.com/assets/img/retreat/fb_social.jpg"
+      @twitter_card.image_url = "http://scrsg16.herokuapp.com/assets/img/retreat/social_img.jpg"
 
       @facebook_og = FacebookOpenGraph.new
       @facebook_og.site_name = ""
