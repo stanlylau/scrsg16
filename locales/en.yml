@@ -101,7 +101,7 @@ en:
   price:
     title: Prices
     early_bird:
-      title: Early Bird (4 remaining)
+      title: Early Bird (3 remaining)
       price: 450
       applies: "<strong>First 24 participants</strong>"
     normal:
