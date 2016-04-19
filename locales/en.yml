@@ -101,11 +101,11 @@ en:
   price:
     title: Prices
     early_bird:
-      title: Early Bird (2 remaining)
+      title: Early Bird (Sold Out)
       price: 450
       applies: "<strong>First 24 participants</strong>"
     normal:
-      title: Normal Rate
+      title: Normal Rate (Available)
       price: 500
       applies: "Remaining 16 participants"
     includes:
