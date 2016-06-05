@@ -105,7 +105,7 @@ en:
       price: 450
       applies: "<strong>First 24 participants</strong>"
     normal:
-      title: Normal Rate (Available)
+      title: Normal Rate
       price: 500
       applies: "Remaining 16 participants"
     includes:
